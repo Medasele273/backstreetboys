@@ -33,7 +33,7 @@ html, body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 350px;
 }
 
 /* Nav */
@@ -77,7 +77,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "Booter-one one";
     font-weight: normal;
     color: #fff;
@@ -86,7 +86,7 @@ html, body {
 }
 
 .band-name-large {
-    font-size: 7em;
+    font-size: 5em;
     
 }
 
@@ -151,4 +151,135 @@ html, body {
     width: 60px;
     height: 60px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+
+}
+
+.btn-header {
+    color: #fff;
+    border: 2px solid #56ccf2;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-radius: 0;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+
+.btn-header:hover {
+ background-color: rgba(255, 255, 255,.4);
+ transform: translateY(-2px)
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    font-size: 2.5em;
+    color: #56ccf2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+
+}
+
+.tour-row {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, .17);
+    margin-bottom: 20px;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 15%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+/* Store css*/
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom:15px;
+
+}
+
+.shop-item-image {
+    height: 250px;  
+}
+
+.shop-item-price {
+    flex-grow:1;
+    color:#333;
+}
+
+.shop-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+
+
+
+
 
