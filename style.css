@@ -21,19 +21,20 @@
 html, body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 /* About Header*/
 
 .main-header {
-    height: 200px;
+    height: 300px;
     background-color: rgba(0, 0, 0, .5);
     background-image: url('img/Header\ Background.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 350px;
+    
 }
 
 /* Nav */
@@ -53,14 +54,14 @@ html, body {
 
 .nav a {
     display: inline-block;
-    padding: 25px;
+    padding: .5em;
     color: #fff;
     text-decoration: none;  
     
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .main-nav {
@@ -77,7 +78,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Booter-one one";
     font-weight: normal;
     color: #fff;
@@ -86,7 +87,7 @@ html, body {
 }
 
 .band-name-large {
-    font-size: 5em;
+    font-size: 4em;
     
 }
 
@@ -189,10 +190,23 @@ html, body {
 
 }
 
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+
 .tour-row {
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgba(0, 0, 0, .17);
-    margin-bottom: 20px;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, .17);
+    margin-bottom: 1em;
 }
 
 .tour-row:last-child {
@@ -241,6 +255,12 @@ html, body {
 
 .shop-item-image {
     height: 250px;  
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 .shop-item-price {
