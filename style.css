@@ -78,7 +78,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
     font-family: "Booter-one one";
     font-weight: normal;
     color: #fff;
@@ -268,7 +268,7 @@ html, body {
     color:#333;
 }
 
-.shop-item {
+.shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
